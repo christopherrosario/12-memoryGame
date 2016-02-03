@@ -12,6 +12,14 @@ for(var object=0; object < 3; object++){
   
   }console.log(tiles);
   
+  var shuffling = shuffle(tiles);
+  
+  for (var i=0; i < shuffling.length; i++); {
+    addTileToBoard
+  }
+  
+  
+  
   //TODO: randomly assign positions to the tiles on the screen call
   // addTileToBoard here
   // Hint: You can use a forEach or a for loop
