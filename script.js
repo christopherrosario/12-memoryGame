@@ -5,6 +5,13 @@ var divIds = [];
 var matches = 0;
 
 function fillBoard() {
+  
+  var tiles = ["baseball","basketball", "volleyball"];
+for(var object=0; object < 3; object++){
+  tiles.push(tiles[object]);
+  
+  }console.log(tiles);
+  
   //TODO: randomly assign positions to the tiles on the screen call
   // addTileToBoard here
   // Hint: You can use a forEach or a for loop
